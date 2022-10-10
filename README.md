@@ -1,2 +1,2 @@
 # hello-for-termux
-This script only works in Termux
+You can print the message with "hello-figlet" or "hello"
