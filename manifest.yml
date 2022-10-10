@@ -22,5 +22,5 @@ data_files:
         source: hello-figlet.sh
         set_shebang: "#!/data/data/com.termux/files/usr/bin/bash"
 
-    share/man/man1/hello-world.1:
+    share/man/man1/hello.1:
         source: hello.1
