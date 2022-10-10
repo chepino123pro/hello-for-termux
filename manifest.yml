@@ -1,0 +1,26 @@
+control:
+    Package: hello
+    Version: 0.1.0
+    Architecture: all
+    Maintainer: Chepino123pro <j456891701@gmail.com>
+    Depends: figlet
+    Homepage: https://chepino123pro.github.io
+    Description: |-
+        It just a hello world package
+         It is just an example for termux-create-package
+         .
+         It is just prints 'Hello world'
+
+installation_prefix: /data/data/com.termux/files/usr
+
+data_files:
+    bin/hello:
+        source: hello.sh
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/bash"
+
+    bin/hello-figlet:
+        source: hello-figlet.sh
+        set_shebang: "#!/data/data/com.termux/files/usr/bin/bash"
+
+    share/man/man1/hello-world.1:
+        source: hello.1
